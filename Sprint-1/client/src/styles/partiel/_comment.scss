@@ -1,0 +1,145 @@
+
+// MOBILE//
+
+.container-comment{
+    margin-right: 16px;
+    margin-left:16px;
+    margin-bottom: 40px;
+    
+    // remove the margin bottom //
+
+    &__default-comment{
+        margin-bottom: 32px;
+
+        &__join{
+            display: flex;
+            justify-content: center;
+            margin-left:40px;
+
+            &__conversation{
+            color: #AFAFAF;
+            margin-bottom: 8px;
+        }
+        }
+
+        
+    }
+}
+
+.container-form{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    &__two{
+
+         display: flex;
+         flex-direction: column;
+         align-content: flex-end;
+    }
+
+
+}
+#image{
+    height: 48px;
+    width: 48px;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+#comment{
+    width: 224px;
+    height: 96px;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:solid 2px #AFAFAF;
+    outline: none;
+    
+}
+
+#comment:hover{
+    border:solid 2px #0095FF;
+}
+#click{
+    height: 48px;
+    width: 224px;
+    background-color: #0095FF;
+    color: white;
+    border-radius:4px;
+    margin-bottom: 24px;
+    outline: none;
+}
+
+#click:hover{
+    background-color:#0065AD;
+
+}
+
+
+      // IPAD//
+
+@media screen and (min-width:769px){
+
+    .container-comment{
+        margin-right:24px;
+        margin-left:24px;
+
+        &__default-comment{
+            &__join{
+                margin-left: 0px;
+                &__conversation{
+                    margin-right: 390px;
+                }
+                
+            }
+        }
+    }
+
+    .container-form{
+
+        &__two{
+            flex-direction: initial;
+        }
+    }
+
+    #click{
+        width: 166px;
+        margin-right: 40px;
+    }
+
+    #comment{
+        width: 440px;
+        height: 48px;
+        margin-right: 16px;
+        text-indent: 30px;
+    }
+
+
+}
+
+@media screen and (min-width:1339px){
+
+    .container-comment{
+        max-width: 712px;
+        margin-left: 180px;
+
+    }
+
+    #comment{
+        width: 436px;
+    }
+
+     .container-comment{
+
+        &__default-comment{
+            &__join{
+                margin-left:30px;
+                
+            }
+        }
+    }
+}
+
+
