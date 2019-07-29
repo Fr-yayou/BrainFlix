@@ -12,7 +12,7 @@ function Header() {
                 <img className="container-logo__brainflix" src={Logo} alt="Brainflix"></img>
             </div>
             <div className="container-searching">
-                <input className="container-searching__texte" type="texte" placeholder="Search" />
+                <input  id="hover"className="container-searching__texte" type="texte" placeholder="Search" />
                 <div>
                 <img className="container-searching__texte__loop" src={Search} alt="loop" />
                 </div>

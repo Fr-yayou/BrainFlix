@@ -31,6 +31,7 @@
         margin-top: 12px;
         width: 100%;
         text-indent: 40px;
+        outline: none;
 
         &__loop{
             position: absolute;
@@ -39,6 +40,11 @@
         }
 
     }
+
+}
+
+#hover:hover{
+    border:solid 2px #0095FF;
 
 }
 

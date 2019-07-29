@@ -10,6 +10,7 @@
         font-size: 24px;
         color: #323232;
         line-height: 32px;
+        font-family: "AvenirNextBold";
     }
 }
 
@@ -23,6 +24,7 @@
         &__name{
             margin-right: 8px;
             color: #323232;
+            font-family: "AvenirNextDemi";
 
             &__date{
                 color:#AFAFAF;
@@ -44,9 +46,14 @@
 
         &__number{
             margin-right: 24px;
+            color: #323232;
 
             &__like{
                 margin-right: 8px;
+
+                &__num{
+                    color: #323232;
+                }
             }
         }
     }
@@ -65,6 +72,8 @@
     &__paragraphe{
         font-size: 13px;
         line-height:18px;
+        font-family: "AvenirNextRegular";
+        color: #323232;
     }
 }
 
@@ -76,6 +85,11 @@
         margin-left: 24px;
         margin-right:24px;
         margin-top:48px;
+
+        &__title{
+            font-size: 36px;
+            line-height: 44px;
+        }
     }
 
 

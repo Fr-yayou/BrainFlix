@@ -3,5 +3,27 @@
 @import "./partiel/texte";
 @import "./partiel/font";
 @import "./partiel/comment";
+@import "./partiel/default-comment";
+@import "./partiel/videolist";
+@import "./partiel/nextVideo";
+
+
+
+@media screen and (min-width:1339px){
+
+    .column{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .row{
+        display:flex;
+    }
+
+ 
+
+}
+
 
 

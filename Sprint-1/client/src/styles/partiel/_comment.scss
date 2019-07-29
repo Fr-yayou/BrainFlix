@@ -4,22 +4,23 @@
 .container-comment{
     margin-right: 16px;
     margin-left:16px;
-    margin-bottom: 40px;
-    
-    // remove the margin bottom //
+
 
     &__default-comment{
-        margin-bottom: 32px;
+         margin-bottom: 32px;
+         color: #323232;
+         font-family: "AvenirNextDemi";
 
         &__join{
             display: flex;
             justify-content: center;
             margin-left:40px;
 
-            &__conversation{
-            color: #AFAFAF;
-            margin-bottom: 8px;
-        }
+                &__conversation{
+                 color: #AFAFAF;
+                 margin-bottom: 8px;
+                 font-size: 14px;
+            }
         }
 
         
@@ -135,8 +136,7 @@
 
         &__default-comment{
             &__join{
-                margin-left:30px;
-                
+                margin-right: 10px;
             }
         }
     }
