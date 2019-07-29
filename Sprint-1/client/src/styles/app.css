@@ -616,7 +616,7 @@ button:hover {
   border-radius: 4px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-color: #eee;
+  background-size: cover;
 }
 
 .NextVideo__video__text {

@@ -5,7 +5,8 @@ const nextVideo = props => (
     <div
       className="NextVideo__video"
       style={{
-        backgroundImage: 'url(' + props.thumbnail + ')',
+        backgroundImage: 'url(' + props.thumbnail + ')'
+        
       }}
     />
     <div className="NextVideo__video__text">
