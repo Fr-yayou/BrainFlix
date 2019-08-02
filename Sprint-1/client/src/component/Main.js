@@ -2,14 +2,13 @@ import React from "react";
 import Play from "../assets/icons/PNG/Icon-play.png";
 import Volume from "../assets/icons/PNG/Icon-volume.png";
 import Screen from "../assets/icons/PNG/Icon-fullscreen.png";
-import Video from "../assets/image/video-list-0.jpg";
 
-function Main(){
+function Main(props) {
     return (
         
         <div className="container-video">
             <div className="container-video__playing">
-            <video className="container-video__playing__biker" poster={Video} />
+                <video className="container-video__playing__biker" poster={props.videoThumbnail}/>
             
             <div className="container-video__playing__biker__control-bar">
                         <div className="container-video__playing__biker__control-bar__transparent">

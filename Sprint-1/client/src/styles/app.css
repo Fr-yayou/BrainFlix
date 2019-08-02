@@ -575,65 +575,10 @@ button:hover {
   }
 }
 
-.NextVideos {
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 40px;
-}
-
-.NextVideos__title {
-  color: #AFAFAF;
-  margin-bottom: 40px;
-  font-size: 14px;
-}
-
-@media screen and (min-width: 679px) {
-  .NextVideos {
-    margin-right: 24px;
-    margin-left: 24px;
-  }
-}
-
-@media screen and (min-width: 1339px) {
-  .NextVideos {
-    margin-right: 180px;
-    max-width: 344px;
-    margin-left: 0px;
-  }
-}
-
-.NextVideo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 24px;
-  max-width: 264px;
-}
-
-.NextVideo__video {
+.container-nextVideo__title__channel__video {
   width: 120px;
   height: 70px;
   border-radius: 4px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-size: cover;
-}
-
-.NextVideo__video__text {
-  margin-left: 10px;
-}
-
-.NextVideo__video__text__title {
-  color: #323232;
-  line-height: 22px;
-  font-size: 14px;
-}
-
-.NextVideo__video__text__title__author {
-  font-family: 'AvenirNextRegular';
-  color: #323232;
-  font-size: 13px;
-  line-height: 18px;
 }
 
 @media screen and (min-width: 1339px) {

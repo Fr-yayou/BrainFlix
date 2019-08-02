@@ -3,13 +3,13 @@ import Image from "../assets/image/Mohan-muruge.jpg"
 import Logo from "../assets/logo/Logo-brainflix.png";
 import Search from "../assets/icons/PNG/Icon-search.png";
 import Cross from "../assets/icons/PNG/Icon-upload.png";
-
+import {Link} from "react-router-dom"
 
 function Header() {
     return (
         <div className="navbar-container">
             <div className="navbar-container__logo">
-                <img className="container-logo__brainflix" src={Logo} alt="Brainflix"></img>
+            <Link to="/"><img className="container-logo__brainflix" src={Logo} alt="Brainflix"/></Link>
             </div>
             <div className="container-searching">
                 <input  id="hover"className="container-searching__texte" type="texte" placeholder="Search" />
@@ -19,11 +19,14 @@ function Header() {
     
 
                 <div className="container-profil">
-                    <button className="container-profil__button">UPLOAD</button>
+                    <Link to="/upload">
+                        <button className="container-profil__button">UPLOAD</button>
                     <div className="container-profil__button__cross">
                     <img src={Cross} alt="cross" />
                     </div>
+                    </Link>
                     <img className="container-profil__button__cross__img" src={Image} alt="portrait" />
+                
                    
                 </div>
 
