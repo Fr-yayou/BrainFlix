@@ -20,7 +20,8 @@ class VideoContainer extends Component {
     videoInfos: [],
     videoComments: [],
     videoThumbnail:[],
-        loopingVideo: [],
+    loopingVideo: [],
+    loading: true,
 }
   componentDidMount() {
     axios
@@ -64,22 +65,24 @@ class VideoContainer extends Component {
 
     
     render() {
-
-    const videoList = this.state.videos.filter(video => {
+        const videoList = this.state.videos.filter(video => {
         return video.id !== this.props.match.params.id
     })
 
         return (
         <div>
         <Main videoThumbnail={this.state.videoThumbnail} loopingVideo={this.state.loopingVideo} />
-        <div id="bb">
-            <div id="ggg">    
+             <div className="row">
+          <div className="column-one">    
             <Texte videoInfos={this.state.videoInfos} />
             <Comment/>
             <Defaultcomment videoComments={this.state.videoComments} />
-            </div> 
-                    <Videolist videos={videoList}  />
-        </div> 
+              </div> 
+              <div className="column-two">
+                <h5 id="title">NEXT VIDEO</h5>
+              <Videolist videos={videoList} />
+              </div>
+           </div> 
            </div>
          
         )

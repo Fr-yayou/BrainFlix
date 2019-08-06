@@ -10,6 +10,7 @@
          margin-bottom: 32px;
          color: #323232;
          font-family: "AvenirNextDemi";
+         font-size: 16px;
 
         &__join{
             display: flex;
@@ -19,7 +20,8 @@
                 &__conversation{
                  color: #AFAFAF;
                  margin-bottom: 8px;
-                 font-size: 14px;
+                 font-size: 12px;
+                 padding-right: 35px;
             }
         }
 
@@ -92,6 +94,7 @@
                 margin-left: 0px;
                 &__conversation{
                     margin-right: 390px;
+                    padding-right: 57px;
                 }
                 
             }
@@ -136,7 +139,7 @@
 
         &__default-comment{
             &__join{
-                margin-right: 10px;
+                margin-left:4px;
             }
         }
     }

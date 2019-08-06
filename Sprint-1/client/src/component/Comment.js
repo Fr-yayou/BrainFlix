@@ -6,8 +6,10 @@ function Comment () {
 
 
        return (
-          <div className="container-comment">
-            <h4 className="container-comment__default-comment">3 Comments</h4>
+           <div className="container-comment">
+            <div>
+               <h4 className="container-comment__default-comment">3 Comments</h4>
+            </div>
             <div className="container-comment__default-comment__join" >
                 <h5 className="container-comment__default-comment__join__conversation">JOIN THE CONVERSATION</h5>
             </div>

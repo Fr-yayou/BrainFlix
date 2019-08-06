@@ -20,14 +20,19 @@
 
     &__source{
         display: flex;
+        align-items: baseline;
+
 
         &__name{
             margin-right: 8px;
             color: #323232;
             font-family: "AvenirNextDemi";
+            font-size: 12px;
 
             &__date{
                 color:#AFAFAF;
+                font-family: 'AvenirNextRegular';
+                font-size:12px;
             }
 
 
@@ -47,12 +52,17 @@
         &__number{
             margin-right: 24px;
             color: #323232;
+            font-family: 'AvenirNextRegular';
+            font-size:12px;
 
             &__like{
                 margin-right: 8px;
 
                 &__num{
                     color: #323232;
+                    font-family: 'AvenirNextRegular';
+                    font-size:12px;
+                    
                 }
             }
         }

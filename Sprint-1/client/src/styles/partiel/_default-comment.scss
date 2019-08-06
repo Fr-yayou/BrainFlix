@@ -15,6 +15,7 @@
 
 .container-profile{
     display: flex;
+    align-items: center;
     &__portrait{
     height: 48px;
     width: 48px;
@@ -23,7 +24,7 @@
 
     &__person{
         font-size: 14px;
-        font-family: 'AvenirNextDemi';
+        font-family: 'AvenirNextBold';
         line-height: 22px;
         color: #323232;
         margin-left: 20px;
@@ -31,6 +32,8 @@
         &__time{
             color: #AFAFAF;
             margin-left: 10px;
+            font-family: "AvenirNextRegular";
+            font-size: 12px;
         }
     }
     
