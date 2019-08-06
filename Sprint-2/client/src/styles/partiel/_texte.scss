@@ -1,0 +1,143 @@
+// MOBILE//
+
+.container-texte{
+
+    margin-left: 16px;
+    margin-right:16px;
+    margin-top: 32px;
+
+    &__title{
+        font-size: 24px;
+        color: #323232;
+        line-height: 32px;
+        font-family: "AvenirNextBold";
+    }
+}
+
+.container-providor{
+
+    margin-top: 16px;
+
+    &__source{
+        display: flex;
+        align-items: baseline;
+
+
+        &__name{
+            margin-right: 8px;
+            color: #323232;
+            font-family: "AvenirNextDemi";
+            font-size: 12px;
+
+            &__date{
+                color:#AFAFAF;
+                font-family: 'AvenirNextRegular';
+                font-size:12px;
+            }
+
+
+        }
+    }
+
+}
+
+.container-info{
+    margin-top:32px;
+    display: flex;
+    margin-bottom: 24px;
+
+    &__eye{
+        margin-right: 8px;
+
+        &__number{
+            margin-right: 24px;
+            color: #323232;
+            font-family: 'AvenirNextRegular';
+            font-size:12px;
+
+            &__like{
+                margin-right: 8px;
+
+                &__num{
+                    color: #323232;
+                    font-family: 'AvenirNextRegular';
+                    font-size:12px;
+                    
+                }
+            }
+        }
+    }
+}
+
+#line{
+    height: 1px;
+    width: 100%;
+    background-color: #AFAFAF;
+}
+
+.container-description{
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+    &__paragraphe{
+        font-size: 13px;
+        line-height:18px;
+        font-family: "AvenirNextRegular";
+        color: #323232;
+    }
+}
+
+         // IPAD//
+
+@media screen and (min-width:769px){
+
+    .container-texte{
+        margin-left: 24px;
+        margin-right:24px;
+        margin-top:48px;
+
+        &__title{
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+
+    .container-description{
+        margin-top: 40px;
+        margin-bottom: 64px;
+    }
+
+    #tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-info{
+        margin-top: 0px;
+    }
+
+    .container-description{
+        max-width: 504px;
+
+        &__paragraphe{
+            font-size: 14px;
+            line-height: 22px;
+
+        }
+    }
+}
+
+    // Desktop//
+
+@media screen and (min-width:1339px){
+
+    .container-texte{
+        max-width: 712px;
+        margin-left: 180px;
+    }
+
+    .container-info{
+        margin-right: 32px;
+    }
+}
