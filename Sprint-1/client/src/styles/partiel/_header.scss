@@ -11,6 +11,7 @@
     height: 169px;
     margin-left: 16px;
     margin-right: 16px;
+    border-bottom: 1px solid #FAFAFA;
 
     &__logo{
         margin-top: 12px;
@@ -74,6 +75,10 @@
                 margin-left:16px;
             }
         }
+
+    }
+    a{
+        width: 100%;
 
     }
 

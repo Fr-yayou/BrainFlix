@@ -7,6 +7,7 @@
   height: 169px;
   margin-left: 16px;
   margin-right: 16px;
+  border-bottom: 1px solid #FAFAFA;
 }
 
 .navbar-container__logo {
@@ -68,6 +69,10 @@
   width: 48px;
   border-radius: 50%;
   margin-left: 16px;
+}
+
+.container-profil a {
+  width: 100%;
 }
 
 button:hover {
@@ -481,7 +486,7 @@ button:hover {
     margin-left: 24px;
   }
   .container-comment__default-comment__join {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .container-comment__default-comment__join__conversation {
     margin-right: 390px;
@@ -514,7 +519,7 @@ button:hover {
     width: 436px;
   }
   .container-comment__default-comment__join {
-    margin-left: 4px;
+    margin-left: 18px;
   }
 }
 
@@ -648,6 +653,7 @@ button:hover {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 32px;
+  margin-top: 24px;
 }
 
 .container-thumbnail__title {
@@ -762,6 +768,9 @@ button:hover {
   }
   .container-upload {
     margin-top: 48px;
+  }
+  .container-upload__title {
+    margin-top: 0px;
   }
   .container-formTwo {
     margin-top: 40px;
