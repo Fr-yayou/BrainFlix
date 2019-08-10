@@ -7,9 +7,9 @@ import Comment from './Comment'
 import axios from "axios";
 
 
-const videoUrl = 'https://project-2-api.herokuapp.com/videos/';
+const videoUrl = 'http://localhost:8080/videos';
 const Mykey = '?api_key=c67d4d3d-660e-499e-9caf-5f1c2376a124'
-const playing = id =>`https://project-2-api.herokuapp.com/videos/${id}${Mykey}`
+const playing = id =>`http://localhost:8080/videos/${id}`
 
 class VideoContainer extends Component {
 
