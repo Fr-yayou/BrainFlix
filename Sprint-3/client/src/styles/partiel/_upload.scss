@@ -1,0 +1,190 @@
+// MOBILE//
+
+.container-upload{
+    margin-left: 16px;
+    margin-right: 16px;
+
+
+    &__title{
+        color:#323232;
+        font-family: "AvenirNextBold";
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 32px;
+        margin-top: 24px;
+    }
+}
+
+.container-thumbnail{
+
+    &__title{
+        color: #AFAFAF;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: "AvenirNextDemi";
+
+        &__video{
+            width: 288px;
+            height: 153px;
+            border-radius: 4px;
+        }
+    }
+}
+
+.container-formTwo{
+    display:flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 24px;
+
+    &__title{
+        color: #AFAFAF;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: "AvenirNextDemi";
+
+        &__com{
+        height: 48px;
+        border-radius:4px;
+        outline: none;
+        width: 100%;
+        background-color: #FAFAFA;
+        text-indent: 20px;
+        border:1px solid #E1E1E1;
+
+        &__titleTwo{
+
+            color: #AFAFAF;
+            font-size: 12px;
+            line-height: 20px;
+            font-family: "AvenirNextDemi";
+
+            &__description{
+                width: 100%;
+                height:143px;
+                border:1px solid #E1E1E1;
+                background-color: #FAFAFA;
+                outline: none;
+                border-radius:4px;
+                text-indent: 20px;
+                margin-bottom: 32px;
+
+            }
+        }
+        
+        }
+    }
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+#color:hover{
+    border:solid 2px #0095FF;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: column;
+
+    &__publish{
+        width: 100%;
+        height: 48px;
+        background-color:#0095ff;
+        color:white;
+        border-radius:4px;
+        outline: none;
+        width: 100%;
+
+        &__cancel{
+            color:#0095ff;
+            margin-top: 24px;
+            margin-bottom: 40px;
+
+        }
+
+    }
+
+}
+
+#btn:hover{
+     background-color:#0065AD;
+}
+
+// IPAD//
+
+@media screen and (min-width:769px){
+
+    #line-two{
+        background-color: #AFAFAF;
+        height: 1px;
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+
+    .container-upload{
+        margin-top: 48px;
+        &__title{
+            margin-top: 0px;
+        }
+    }
+
+    .container-formTwo{
+        margin-top: 40px;
+
+        &__title{
+
+            &__com{
+
+                &__titleTwo{
+
+                    &__description{
+
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-thumbnail{
+        &__title{
+
+            &__video{
+                width: 344px;
+                height: 183px;
+            }
+        }
+    }
+
+    .container-button{
+
+        &__publish{
+            width: 160px;
+
+            &__cancel{
+                margin-right: 48px;
+            }
+        }
+    }
+
+    #center{
+        justify-content: initial;
+    }
+
+    #h{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+}
+
+@media screen and (min-width:1339px){
+    .container-upload{
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+}

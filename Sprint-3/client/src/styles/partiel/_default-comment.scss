@@ -1,0 +1,86 @@
+// Mobile//
+
+
+#bottom-line{
+    background-color: #AFAFAF;
+    height: 1px;
+    
+}
+
+.container-default{
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.container-profile{
+    display: flex;
+    align-items: center;
+    &__portrait{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #AFAFAF;
+
+    &__person{
+        font-size: 14px;
+        font-family: 'AvenirNextBold';
+        line-height: 22px;
+        color: #323232;
+        margin-left: 20px;
+
+        &__time{
+            color: #AFAFAF;
+            margin-left: 10px;
+            font-family: "AvenirNextRegular";
+            font-size: 12px;
+        }
+    }
+    
+    }
+}
+.container-sentence{
+
+    &__para{
+        line-height: 18px;
+        font-size:13px;
+        font-family: 'AvenirNextRegular';
+        color: #323232;
+        margin-bottom: 24px;
+        margin-left: 70px;
+
+        &__bottom-line{
+          height: 1px;
+          background-color: #AFAFAF;
+       }
+
+
+    }
+
+    
+}
+
+@media screen and (min-width:769px){
+
+
+    .container-default{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .container-sentence{
+
+        &__para{
+            max-width: 624px;
+        }
+    }
+
+}
+
+@media screen and (min-width:1339px){
+
+    .container-default{
+        max-width: 712px;
+        margin-left: 180px;
+    }
+}

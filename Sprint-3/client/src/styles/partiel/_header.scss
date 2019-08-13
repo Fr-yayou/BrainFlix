@@ -1,0 +1,193 @@
+
+
+//          // MOBILE//
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container{
+    height: 169px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid #FAFAFA;
+
+    &__logo{
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+
+.container-searching{
+
+    &__texte{
+        height: 48px;
+        border:1px solid #E1E1E1;
+        border-radius: 4px;
+        background-color: #FAFAFA;
+        margin-top: 12px;
+        width: 100%;
+        text-indent: 40px;
+        outline: none;
+
+        &__loop{
+            position: absolute;
+            top: 67px;
+            left:30px;
+        }
+
+    }
+
+}
+
+#hover:hover{
+    border:solid 2px #0095FF;
+
+}
+
+.container-profil{
+    
+    margin-top: 8px;
+    display: flex;
+
+    &__button {
+        height: 48px;
+        background-color:#0095ff;
+        color:white;
+        border-radius:4px;
+        color: white;
+        outline: none;
+        width: 100%;
+
+        &__cross{
+            position: absolute;
+            top: 120px;
+            left: 30px;
+
+            &__img{
+                height: 48px;
+                width: 48px;
+                border-radius: 50%;
+                margin-left:16px;
+            }
+        }
+
+    }
+    a{
+        width: 100%;
+
+    }
+
+
+}
+button:hover {
+        background-color:#0065AD;
+    }
+
+
+        // IPAD//
+
+@media screen and (min-width:769px){
+
+    .navbar-container{
+        margin-right: 24px;
+        margin-left: 24px;
+        height:80px;
+
+        &__logo{
+            position: absolute;
+            margin-top: 28px;
+
+        }
+    }
+
+    .container-searching{
+        display: flex;
+        align-items: baseline;
+        margin-left: 289px;
+
+        &__texte{
+
+            &__loop{
+                top: 0px;
+                left: 330px;
+                top:30px;
+            }
+
+        }
+    }
+
+    .container-profil{
+
+        &__button{
+            margin-left: 24px;
+            width: 100px;
+
+            &__cross{
+                top: unset;
+                left: unset;
+                right: 175px;
+                top: 28px;
+
+
+
+                 &__img{
+                margin-left: 24px;
+
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+        // DESKTOP//
+
+@media screen and (min-width:1339px){
+
+    .navbar-container{
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+
+    .container-searching{
+        margin-left: 629px;
+        &__texte{
+            &__loop{
+                left: 820px;
+            }
+        }
+    }
+
+    .container-profil{
+        
+        &__button{
+            &__cross{
+                right: 330px;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
